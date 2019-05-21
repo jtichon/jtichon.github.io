@@ -12,6 +12,24 @@ nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
+
+#banner{
+  background-image: url("header.JPG");
+  background size: cover;
+  height: 200px;
+  width: 100%;
+  opacity: 90%;
+}
+
+#banner .header h1{
+  border: 3px solid white;
+  color: white;
+  position: relative;
+  top: 50px;
+  width: 625px;
+  padding: 5px;
+  margin: 0 auto;
+}
 a {
     text-decoration: none;
     color: #999;
