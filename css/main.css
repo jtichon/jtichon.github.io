@@ -14,7 +14,7 @@ nav ul li, footer ul li {
 }
 
 #banner{
-  background-image: url("header.JPG");
+  background-image: url("/css/header.JPG");
   background size: cover;
   height: 200px;
   width: 100%;
