@@ -17,12 +17,14 @@ nav ul li, footer ul li {
   background-image: url("https://jtichon.github.io/css/header.JPG");
   background size: cover;
   height: 200px;
-  width: 100%;
+  width: cover;
 }
 
 #banner .header h1{
   border: 3px solid white;
-  color: white;
+  color: black;
+  background-color: lightblue;
+  opacity: 0.70;
   position: relative;
   top: 50px;
   width: 625px;
@@ -45,13 +47,17 @@ p {
     line-height: 1.4em;
     color: #333;
 }
+
+.cvsubsection p{
+  font-size: 1em;
+}
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
+ul.posts {
+    margin: 20px auto 40px;
     font-size: 1.5em;
 }
 
