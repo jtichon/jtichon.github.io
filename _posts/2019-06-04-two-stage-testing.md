@@ -2,11 +2,14 @@
 layout: post
 title: "Two-stage Testing"
 date: 2019-06-04
+excerpt_separator: <!--more-->
 ---
 
-## :notes: Summertime, and the living is easy :notes:
+:notes: *Summertime, and the living is easy* :notes:
 
 One of the greatest treats of getting to teach summer session, for me, is class sizes that can accommodate a bit of experimenting. Throughout the year I gather many ideas from colleagues, websites, and students about things that could be done in the classroom and I spend the rest of Fall and Winter imagining what it will be like in summer session when I both have the time to dedicate to implementing a new system or practice and I have few enough students that I can course correct if necessary. The last summer course I taught in 2017 I took the time to learn how to use [Crowdmark](http://www.crowdmark.com) and implemented it for all of my quizzes and tests. I fell head over heels with it and now sing the praises of Crowdmark to anyone who will listen (maybe a future blog post?). Apart from the fact that it legitimately is a miracle tool for marking math based assessments for large classes, I do feel strongly that part of my love for it came from the fact that I had the time to do it properly and was already set up for success.
+<!--more-->
+
 
 This summer I have the extreme luxury of teaching a section of STAT 1150 to 15 students. The course is our version of introductory statistics aimed at science students and those from mathematically rich disciplines. It is meant to be as much training as introduction and has an R computing component to it that is not present in our STAT 1000 class that is meant as a survey course for those wanting to know a little bit more about statistics or who are seeking a math credit (I whole heartedly approve of statistics for this choice). The students, as whole, in this course tend to have fairly strong math skills and are up to learning and trying new things. Generally speaking, I refer to 50 student classes as very small so this opportunity to try some innovative new ideas with a group that was going to be receptive to is what just too much to pass up on. I spent most of the Winter term listening to those in science education and seeing what they were most excited about and planned what I would do. There were two big takeaways for me, and I will eventually talk about them both, but what has me most excited at the moment is the two-stage testing.
 
@@ -40,7 +43,7 @@ The real revelation of the day, for me, was seeing testing in a completely diffe
   <li> Most of the students, at one point or another, were explaining to their classmates how to do a problem which reinforces their learning.</li>
   <li> Students got to interact with classmates they didn't normally speak to and widened the pool of people they could talk to and ask questions of.</li>
   <li> I had much less I had to review in class because most of the common mistakes were caught in the group portion.</li>
-  
+
 </ul>
 
 In all sincerity, it was probably the most exciting day of my teaching career that I have ever experienced and I spent the whole week gushing to any one that would listen to me. It's a first experience, and it was certainly under ideal conditions, but if replicated true learning happening during testing is something I can accomplish, then I am sold on it. From my one experience so far, if I could offer up one best suggestion to something thinking of trying it, it would be to stick with having questions that were largely right off the actual midterm (with numbers changed as appropriate). For me, the immediate feedback was the biggest selling point. I will be sure to report back when I have tried to scale this to a larger class.
