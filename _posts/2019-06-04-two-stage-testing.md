@@ -3,6 +3,8 @@ layout: post
 title: "Two-stage Testing"
 date: 2019-06-04
 excerpt_separator: <!--more-->
+category: [teaching, testing]
+tags: [1150, two-stage-testing]
 ---
 
 :notes: *Summertime, and the living is easy* :notes:
