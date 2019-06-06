@@ -1,7 +1,4 @@
----
-layout: default
-title: Uniform Simulation
----
+<!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 
@@ -239,19 +236,19 @@ simulation&lt;-function(n, print)
 {
   #Generate n random uniform observations on (7,13)
   obs&lt;-runif(n, 7, 13)
-
+  
   #If print=T, print vector of observations and vector of T/F values
   if(print==T){
     print(obs)
     print((obs&gt;=9)==TRUE)
   }
-
+  
   #Count proportion where &gt;=9 is true out of n observations
   sum((obs&gt;=9&amp;obs&lt;=13)==TRUE)/n
-
+  
 }</code></pre>
 <p>To show how this works, I always start out by running the simulation for a sample of size 10 and printing out the observations using the T variable in my function:</p>
-<pre class="r"><code>#Test for sample of size 10 with output printed.
+<pre class="r"><code>#Test for sample of size 10 with output printed. 
 simulation(10,T)</code></pre>
 <pre><code>##  [1] 10.253473  9.462735  7.210818 10.895015  9.416154  8.373844 12.010142
 ##  [8]  7.915385  7.550852  9.813020
@@ -274,11 +271,11 @@ prop&lt;-vector('numeric')
 
 #Create a vector with 1000 instances of function with sample size increasing by 100
 for(k in 1:1000){
-
+  
   prop&lt;-c(prop,simulation(100*k,F))
-
+  
 }
-
+ 
 #Create a vector of possible sample sizes
 num&lt;-c(1:1000)
 num&lt;-num*100
@@ -295,6 +292,7 @@ abline(h=(2/3), col=&quot;red&quot;)</code></pre>
 <li>We see increasingly less sampling variability as we increase our sample size.</li>
 <li>Our simulation agreed with our mathematical calculation which suggests it may be a good approximation in other problems when it is not so easy to calculate the area by hand or we’d like a rough aproximation.</li>
 </ol>
+<p><strong>Code Link </strong> You can find a <a href="https://github.com/jtichon/Simulations_teaching/blob/master/unif/uniformsimulation.R"> link to the code </a> at my <a href="https://github.com/jtichon"> GitHub Repository </a>.</p>
 
 
 
@@ -325,3 +323,4 @@ $(document).ready(function () {
 </script>
 
 </body>
+</html>

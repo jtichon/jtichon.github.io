@@ -133,3 +133,6 @@ At the end of the simulation it is important to restate the purpose of the exerc
   2. If we repeatedly sample from a distribution, the proportion of observations that fall in a region converges to the probability of being in that region. 
   3. We see increasingly less sampling variability as we increase our sample size. 
   4. Our simulation agreed with our mathematical calculation which suggests it may be a good approximation in other problems when it is not so easy to calculate the area by hand or we'd like a rough aproximation.
+  
+**Code Link **
+You can find a <a href="https://github.com/jtichon/Simulations_teaching/blob/master/unif/uniformsimulation.R"> link to the code </a> at my <a href="https://github.com/jtichon"> GitHub Repository </a>. 
