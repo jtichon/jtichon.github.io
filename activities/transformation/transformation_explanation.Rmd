@@ -1,0 +1,43 @@
+---
+title: "Transformations of Variables and Standard Normal"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+**This demonstration is used to teach about **
+
+**Context and Setup**
+
+**The Simulation **
+
+```{r}
+x<-runif(300,0,20)
+y<-x
+
+plot(x,y, xlim=c(0,20), ylim=c(0,60))
+
+y<-2*x
+plot(x,y, xlim=c(0,20), ylim=c(0,60))
+
+y<-2*x+10
+plot(x,y, xlim=c(0,20), ylim=c(0,60))
+
+set.seed(115)
+x<-rnorm(1000, 20, 5)
+hist(x)
+
+z<-(x-20)/5
+hist(z)
+
+par(mfrow=c(2,1))
+hist(x)
+hist(z)
+```
+
+**Summary **
+
+**Code Link **
+You can find a <a href="https://github.com/jtichon/Simulations_teaching/blob/master/unif/transformation_simulation_explanation.R"> link to the code </a> at my <a href="https://github.com/jtichon"> GitHub Repository </a>. 
