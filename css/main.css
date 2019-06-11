@@ -55,6 +55,7 @@ h1 {
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
+    clear: both;
 }
 
 
@@ -63,6 +64,26 @@ footer {
 
 
 /* About Me */
+
+.aboutmeleft{
+  position: relative;
+}
+
+.aboutmeleft img{
+  float: left;
+  height: 200px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+.aboutmeright{
+  position: relative;
+}
+.aboutmeright img{
+  float: right;
+  height: 200px;
+  padding-left: 10px;
+}
 
 /* CV */
 .cvsubsection p{
