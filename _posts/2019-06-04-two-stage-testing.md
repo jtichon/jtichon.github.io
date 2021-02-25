@@ -7,7 +7,7 @@ category: [teaching, testing]
 tags: [1150, two-stage-testing]
 ---
 
-:notes: *Summertime, and the living is easy* :notes:
+:musical_note: *Summertime, and the living is easy* :musical_note:
 
 One of the greatest treats of getting to teach summer session, for me, is class sizes that can accommodate a bit of experimenting. Throughout the year I gather many ideas from colleagues, websites, and students about things that could be done in the classroom and I spend the rest of Fall and Winter imagining what it will be like in summer session when I both have the time to dedicate to implementing a new system or practice and I have few enough students that I can course correct if necessary. The last summer course I taught in 2017 I took the time to learn how to use [Crowdmark](http://www.crowdmark.com) and implemented it for all of my quizzes and tests. I fell head over heels with it and now sing the praises of Crowdmark to anyone who will listen (maybe a future blog post?). Apart from the fact that it legitimately is a miracle tool for marking math based assessments for large classes, I do feel strongly that part of my love for it came from the fact that I had the time to do it properly and was already set up for success.
 <!--more-->
