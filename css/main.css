@@ -92,6 +92,11 @@ footer {
     clear: both;
 }
 
+.tt {
+  font-family:'Lucida Console', monospace;
+  text-align:center
+}
+
 
 
 /* Front Page */
